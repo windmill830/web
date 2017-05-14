@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:123@localhost:3306/sqlalchemytest?charset=utf8'
+app.config.from_pyfile('config.cfg')
 db = SQLAlchemy(app)
 
 
