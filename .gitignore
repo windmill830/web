@@ -18,5 +18,5 @@ deploy_key_rsa
 
 # ignore dir
 flaskenv
-.idea
+learn_flask/.idea
 
