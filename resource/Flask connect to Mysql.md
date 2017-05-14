@@ -12,3 +12,9 @@
 
 5. app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
 
+
+
+
+##### reference：
+
+[Flask-SQLAlchemy配置MySQL及其相关操作](http://blog.csdn.net/werewolf_st/article/details/45933949)
