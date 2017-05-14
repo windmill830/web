@@ -13,6 +13,5 @@ class Connect(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     data = db.Column(db.String(1000))
 
-
 if __name__ == '__main__':
     app.run(debug=True)
