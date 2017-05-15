@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>url_for test</title>
+</head>
+<body>
+<h1>Hello, World!</h1>
+
+<!--    {{ url_for('page_link') }} equals to "/page", and will show "On Page" in Browser -->
+<a href="{{ url_for('page_link') }}">Page link will be show in here</a>
+
+<br>
+
+<!--    {{ url_for('page_link', user='Jack') }} equals to "/page/Jack", and will show "User: Jack" in Browser -->
+<a href="{{ url_for('user_page', user='Jack') }}">User page link</a>
+
+</body>
+</html>
